@@ -62,7 +62,7 @@ function PredictTab() {
     setError(null);
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+       "https://churn-predictor-api-mjr1.onrender.com/predict",
         formData
       );
       setResult(response.data);
