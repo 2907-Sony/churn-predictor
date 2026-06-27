@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+churn-env/
+
+# Model files (can be regenerated)
+backend/data/*.pkl
+backend/data/*.csv
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Mac files
+.DS_Store
