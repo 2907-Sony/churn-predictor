@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 churn-env/
 
-# Model files (can be regenerated)
+# Model files
 backend/data/*.pkl
 backend/data/*.csv
 
@@ -11,5 +11,11 @@ backend/data/*.csv
 frontend/node_modules/
 frontend/build/
 
-# Mac files
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
 .DS_Store
+
+# Database
+*.db
