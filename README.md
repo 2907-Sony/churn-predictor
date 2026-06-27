@@ -3,6 +3,10 @@
 A full-stack machine learning application that predicts 
 customer churn risk using Random Forest classification.
 
+## Live Demo
+- Frontend: https://churn-predictor-ho8w.vercel.app
+- Backend API: https://churn-predictor-api-mjr1.onrender.com
+
 ##  Tech Stack
 - **Frontend:** React, Chart.js, Axios
 - **Backend:** FastAPI, Python, Uvicorn
